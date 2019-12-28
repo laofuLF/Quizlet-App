@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="32dp"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/question1"
+            android:layout_marginTop="40dp"
+            android:textColor="#00BCD4" />
+
+
+        <Spinner
+            android:id="@+id/answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:entries="@array/languages" />
+
+        <TextView
+            android:id="@+id/q12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/question12"
+            android:layout_marginTop="500dp"
+            android:textColor="#00BCD4" />
+
+
+        <Spinner
+            android:id="@+id/answer12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:entries="@array/weathers"
+            />
+
+        <Button
+            android:id="@+id/submit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:text="@string/submit"
+            android:onClick="onClickQuestion1"
+            />
+
+        <ImageButton
+            android:id="@+id/submit1Image"
+            android:layout_width="100dp"
+            android:layout_height="41dp"
+            android:src="@mipmap/button_image"
+            android:layout_gravity="center"
+            android:onClick="onClickQuestion1">
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/result1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"/>
+
+        <TextView
+            android:id="@+id/q1timer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:id="@+id/q1timer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+</ScrollView>

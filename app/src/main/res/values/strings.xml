@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Exercise4</string>
+    <string name="submit">Submit</string>
+    <string name="question1">Which is the best programming language?</string>
+    <string name="question12">What weather do I like the most?</string>
+    <string name="question2">Which is my favorite city in the states?</string>
+    <string name="share">Share My Result</string>
+    <string name="hint">Enter a city name</string>
+    <string name="setting">Enter your settings:</string>
+    <string name="chooser">Share your result to...</string>
+    <string name="useTimer1">Do you want to use a timer for Q1?</string>
+    <string name="useTimer2">Do you want to use a timer for Q2?</string>
+    <string name="retake">Retake</string>
+    <string name="useImage">Do you want to use image button?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="startQuiz">Start quiz</string>
+    <string name="setTime1">Set time limit for Q1(sec):</string>
+    <string name="setTime2">Set time limit for Q2(sec):</string>
+    <string name="seconds">seconds</string>
+    <string name="title">Notification From Your Quiz App: </string>
+    <string name="notification">You failed the test!!!</string>
+    <string-array name="languages">
+        <item>Python</item>
+        <item>Java</item>
+        <item>Swift</item>
+        <item>HTML</item>
+    </string-array>
+    <string-array name="weathers">
+        <item>Sunny</item>
+        <item>Rainy</item>
+        <item>Cloudy</item>
+        <item>Windy</item>
+    </string-array>
+
+</resources>
